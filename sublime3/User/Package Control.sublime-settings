@@ -1,0 +1,13 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"CoffeeScript",
+		"Dotfiles Syntax Highlighting",
+		"GitGutter",
+		"Handlebars",
+		"Package Control",
+		"RubyTest",
+		"SCSS"
+	]
+}
