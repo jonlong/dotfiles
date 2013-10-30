@@ -3,3 +3,5 @@
 *~
 *.swp
 *.rbc
+.sass-cache
+node_modules
