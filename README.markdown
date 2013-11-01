@@ -1,6 +1,6 @@
 # dotfiles
 
-Based on [@holman's][http://github.com/holman] fantastic [dotfiles](http://github.com/holman/dotfiles) repo.
+Based on [@holman's](http://github.com/holman) fantastic [dotfiles](http://github.com/holman/dotfiles) repo. Thanks, dude!
 
 Check out [his post on the
 subject](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/) for some more information.
