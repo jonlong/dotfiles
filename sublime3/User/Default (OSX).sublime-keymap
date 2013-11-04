@@ -1,2 +1,6 @@
 [
+  {
+    "keys": ["shift+option+r"], "command": "toggle_rulers",
+    "args": { "values": [80] }
+  }
 ]
