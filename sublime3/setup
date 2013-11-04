@@ -35,7 +35,7 @@ cd SublimeLinter
 git checkout sublime-text-3
 
 # symlink user settings
-for file in $ZSH/sublime3/User/*
+for file in $DOT/sublime3/User/*
 do
   echo $file
   ln -sf "$file" "$sublime_dir"

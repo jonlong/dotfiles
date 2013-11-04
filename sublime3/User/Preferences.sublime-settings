@@ -20,7 +20,7 @@
   "caret_style": "phase",
   "ignored_packages":
   [
-          "Vintage"
+    "Vintage"
   ],
   "tab_size": 2,
   "translate_tabs_to_spaces": true,
