@@ -1,1 +1,2 @@
-#digging my theme prompt so far
+# set oh-my-zsh theme in zshrc.symlink
+# set custom prompt settings here
