@@ -21,10 +21,7 @@ cd Package\ Control
 git checkout python3
 
 # Grab the Putty scheme
-# If the Color Scheme directory doesn't exist, make it
-if [ ! -d "$sublime_dir/Color Schemes" ]; then
-  mkdir -p "$HOME/Library/Application Support/Sublime Text 3/Packages/User/Color Schemes"
-fi
+mkdir -p "$HOME/Library/Application Support/Sublime Text 3/Packages/User/Color Schemes"
 cd "$sublime_dir/Color Schemes"
 curl -O https://raw.github.com/geoffgarside/TextMate-Themes/master/Putty.tmTheme
 
