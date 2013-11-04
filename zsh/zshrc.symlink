@@ -10,9 +10,14 @@ export ZSH=$HOME/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="miloshadzic"
 
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+#editor aliases
+alias -g subl=subl
+alias subl="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
+alias nano="subl"
+export EDITOR="subl"
+
+#shortcut aliases
+alias dotfiles="subl ~/.dotfiles"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
