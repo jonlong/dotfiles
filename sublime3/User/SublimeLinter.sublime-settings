@@ -14,7 +14,8 @@
       "require",
       "Modernizr",
       "_gaq",
-      "ga"
+      "ga",
+      "$"
     ]
   }
 }
