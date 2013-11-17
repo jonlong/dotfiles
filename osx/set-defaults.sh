@@ -113,6 +113,11 @@ sudo defaults write /Library/Preferences/com.apple.windowserver DisplayResolutio
 # Finder                                                                      #
 ###############################################################################
 
+# Finder: new window location set to $HOME. Same as Finder > Preferences > New Finder Windows show
+# For other path use "PfLo" and "file:///foo/bar/"
+defaults write com.apple.finder NewWindowTarget -string "PfHm"
+defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}/"
+
 # Finder: disable window animations and Get Info animations
 defaults write com.apple.finder DisableAllAnimations -bool true
 
