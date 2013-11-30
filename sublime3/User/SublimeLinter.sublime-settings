@@ -15,7 +15,9 @@
       "Modernizr",
       "_gaq",
       "ga",
-      "$"
+      "$",
+      "process",
+      "module"
     ]
   }
 }
