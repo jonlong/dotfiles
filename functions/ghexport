@@ -1,7 +1,6 @@
 ghexport() {
-# expects something like jonlong/resume
-URL=$1
-NAME=${URL##*/}
-
-svn export https://github.com/$1/trunk $NAME
+  # expects something like jonlong/resume
+  URL=$1
+  NAME=${URL##*/}
+  svn export https://github.com/$1/trunk $NAME
 }
