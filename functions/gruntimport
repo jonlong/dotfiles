@@ -1,0 +1,23 @@
+# Imports my gruntfile repo from GitHub (without the .git)
+gruntimport() {
+
+  # We need to list deps in package.json, so first see if it exists
+  if [ ! -f package.json ]; then
+    echo "package.json not found. Please add it to use gruntimport."
+    return 1
+  fi
+
+  ghexport jonlong/gruntfile
+  mv gruntfile/* .
+  rm -r gruntfile
+
+  npm install grunt --save-dev
+
+  # Install all the modules and save them to the package.json
+  # Assumes the filenames are grunt module names
+  for f in grunt/*
+  do
+    modulename=`basename $f .js`
+    npm install $modulename --save-dev
+  done
+}
