@@ -1,3 +1,4 @@
+# Exports a repo from GitHub without including the .git folder
 ghexport() {
   # expects something like jonlong/resume
   URL=$1
