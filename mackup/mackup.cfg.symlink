@@ -1,0 +1,18 @@
+[Allowed Applications]
+Bartender
+BetterSnapTool
+Caffeine
+Flux
+iTerm 2
+Messages
+OmniFocus
+Sequel Pro
+Skype
+SuperDuper!
+Transmit
+
+[Alternate Storage Location]
+/Users/jon/.dotfiles/
+
+[Mackup Folder Name]
+apps
