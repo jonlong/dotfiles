@@ -1,0 +1,4 @@
+#mkdir and then cd into it immediately
+function mkcd () {
+  mkdir -p "$@" && cd "$@";
+}
