@@ -7,3 +7,4 @@ alias nano="subl"
 
 #shortcut aliases
 alias dotfiles="cd ~/.dotfiles;subl ."
+alias mackup="~/Projects/mackup/mackup.py"
