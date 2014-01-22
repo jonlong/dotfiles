@@ -4,10 +4,14 @@
 	[
 		"CoffeeScript",
 		"Dotfiles Syntax Highlighting",
+		"EditorConfig",
+		"EJS",
+		"Foundation 5 Snippets",
 		"GitGutter",
 		"Handlebars",
 		"HTML-CSS-JS Prettify",
 		"Jade",
+		"Jade Snippets",
 		"Markdown Extended",
 		"Markdown Preview",
 		"MarkdownEditing",
@@ -15,6 +19,7 @@
 		"RubyTest",
 		"SCSS",
 		"SideBarEnhancements",
-		"Theme - Flatland"
+		"Theme - Flatland",
+		"Various Ipsum Snippets"
 	]
 }
