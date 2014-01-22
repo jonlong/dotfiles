@@ -17,7 +17,8 @@
       "ga",
       "$",
       "process",
-      "module"
+      "module",
+      "angular"
     ]
   }
 }
