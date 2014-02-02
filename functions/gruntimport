@@ -16,7 +16,7 @@ gruntimport() {
 
   # Install all the modules and save them to the package.json
   # Assumes the filenames are grunt module names
-  for f in grunt/*
+  for f in grunt/*.js
   do
     modulename=`basename $f .js`
     npm install $modulename --save-dev
