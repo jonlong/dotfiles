@@ -13,7 +13,7 @@ transmit
 dash
 omnigraffle
 textual
-tower
+sublime-text-3
 
 [storage]
 engine = file_system

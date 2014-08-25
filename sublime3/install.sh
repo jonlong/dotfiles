@@ -30,10 +30,3 @@ cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
 git clone https://github.com/SublimeLinter/SublimeLinter.git
 cd SublimeLinter
 git checkout sublime-text-3
-
-# symlink user settings
-for file in $DOT/sublime3/User/*
-do
-  echo $file
-  ln -sf "$file" "$sublime_dir"
-done
