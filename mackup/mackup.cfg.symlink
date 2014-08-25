@@ -1,19 +1,19 @@
 [applications_to_sync]
-Bartender
-BetterSnapTool
-Caffeine
-Flux
-iTerm 2
-Messages
-OmniFocus
-Sequel Pro
-Skype
-SuperDuper!
-Transmit
-Dash
-OmniGraffle
-Textual
-Tower
+bartender
+bettersnaptool
+caffeine
+flux
+iterm2
+messages
+omnifocus
+sequel-pro
+skype
+superduper
+transmit
+dash
+omnigraffle
+textual
+tower
 
 
 [storage]
