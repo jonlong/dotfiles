@@ -120,52 +120,8 @@ install_dotfiles () {
   done
 }
 
-install_app_prefs () {
-  app_prefs_dir="$DOTFILES_ROOT/apps/"
-
-  # If the directory exists, ask the user what to do
-  if [ -d $app_prefs_dir ]; then
-
-    user "Directory already exists: `$app_prefs_dir`, what do you want to do? [s]kip, [o]verwrite?"
-    read -n 1 action
-
-    case "$action" in
-      o )
-        overwrite=true;;
-      s )
-        skip=true;;
-      * )
-        ;;
-    esac
-
-    if [ "$skip" == "true" ]
-    then
-      success "skipped app preference installation"
-    fi
-
-    if [ "$overwrite" == "true" ]
-    then
-      rm -rf $app_prefs_dir
-      success "removed $app_prefs_dir"
-    fi
-  fi
-
-  if [ ! -d $app_prefs_dir ] || [ "$overwrite" == "true" ]
-  then
-    info "installing app preferences"
-    echo ''
-    git clone git@github.com:jonlong/app-settings.git $app_prefs_dir
-  fi
-
-  info "restoring app preferences"
-  echo ''
-  # No need to prompt user, Mackup will handle this
-  mackup restore
-}
-
 setup_gitconfig
 install_dotfiles
-install_app_prefs
 
 # If we're on a Mac, let's install and setup homebrew.
 if [ "$(uname -s)" == "Darwin" ]
