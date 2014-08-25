@@ -28,6 +28,7 @@ cask install arq
 cask install skype
 cask install textual
 cask install tower
+cask install airfoil
 
 # quicklook plugins
 cask install qlcolorcode
