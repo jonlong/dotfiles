@@ -1,0 +1,46 @@
+# Install native apps
+# Usage: `brew bundle Caskfile`
+
+install caskroom/cask/brew-cask
+tap caskroom/versions
+
+# dev tools
+cask install iterm2
+cask install sequel-pro
+cask install vmware-fusion
+cask install transmit
+
+# browsers
+cask install firefox
+cask install google-chrome
+
+# editors
+cask install sublime-text3
+
+# additional apps
+cask install bartender
+cask install dropbox
+cask install flux
+cask install rdio
+cask install omnifocus
+cask install omnigraffle
+cask install arq
+cask install skype
+cask install textual
+cask install tower
+
+# quicklook plugins
+cask install qlcolorcode
+cask install qlstephen
+cask install qlmarkdown
+cask install quicklook-json
+cask install qlprettypatch
+cask install quicklook-csv
+cask install betterzipql
+cask install webp-quicklook
+
+# link dir into Alfred
+cask alfred link
+
+# cleanup
+cask cleanup
