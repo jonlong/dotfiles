@@ -26,6 +26,10 @@ defaults, and so on. Tweak this script, and occasionally run `dot` from
 time to time to keep your environment fresh and up-to-date. You can find
 this script in `bin/`.
 
+## app preferences
+
+App preferences are managed by [Mackup](https://github.com/lra/mackup). Mackup is configured to store these in a separate directory, which is kept under private version control to protect sensitive/personal info. `script/bootstrap` restores these preferences directly from that repository.
+
 ## topical
 
 Everything's built around topic areas. If you're adding a new area to your
