@@ -4,7 +4,13 @@
 
 set -e
 
-cd "$(dirname $)"/..
+# Absolute path to this script, e.g. /home/user/bin/foo.sh
+SCRIPT=$(greadlink -f "$0")
+
+# Absolute path this script is in, thus /home/user/bin
+SCRIPTPATH=$(dirname "$SCRIPT")
+
+cd "$SCRIPTPATH"/..
 
 # find the installers and run them iteratively
 find . -name install.sh | while read installer ; do sh -c "${installer}" ; done
