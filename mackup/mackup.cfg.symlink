@@ -11,8 +11,7 @@ Skype
 SuperDuper!
 Transmit
 
-[Alternate Storage Location]
-/Users/jon/.dotfiles/
-
-[Mackup Folder Name]
-apps
+[storage]
+engine = file_system
+path = .dotfiles
+directory = apps

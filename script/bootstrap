@@ -160,7 +160,7 @@ install_app_prefs () {
   info "restoring app preferences"
   echo ''
   # No need to prompt user, Mackup will handle this
-  $PROJECTS/mackup/mackup.py restore
+  mackup restore
 }
 
 setup_gitconfig
