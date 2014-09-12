@@ -12,7 +12,7 @@ $DOT/osx/set-defaults.sh
 brew update
 
 # Install homebrew packages
-$DOT/homebrew/install.sh 2>&1
+$DOT/homebrew/install.sh
 
 # Backup App Settings
 mackup backup

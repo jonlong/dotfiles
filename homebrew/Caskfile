@@ -11,8 +11,9 @@ cask install vmware-fusion
 cask install transmit
 
 # browsers
-cask install firefox
-cask install google-chrome
+# Not installing due to MAS 1Password restrictions
+# cask install firefox
+# cask install google-chrome
 
 # editors
 cask install sublime-text3
@@ -28,7 +29,6 @@ cask install arq
 cask install skype
 cask install textual
 cask install tower
-cask install airfoil
 
 # quicklook plugins
 cask install qlcolorcode
