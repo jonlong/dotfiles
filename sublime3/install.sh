@@ -4,6 +4,9 @@ set -x
 
 sublime_dir=~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 
+# link subl alias
+ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" "$DOT/bin/subl"
+
 # backup previous User folder if it exists
 if [ -d "$sublime_dir" ]; then
   rm -rf ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User.backup
