@@ -29,6 +29,8 @@ cask install arq
 cask install skype
 cask install textual
 cask install tower
+cask install steermouse
+cask install viscosity
 
 # quicklook plugins
 cask install qlcolorcode

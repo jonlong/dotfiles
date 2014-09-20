@@ -14,6 +14,7 @@ dash
 omnigraffle
 textual
 sublime-text-3
+viscosity
 
 [storage]
 engine = file_system
