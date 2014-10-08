@@ -19,6 +19,7 @@ cask install transmit
 cask install sublime-text3
 
 # additional apps
+cask install alfred
 cask install bartender
 cask install dropbox
 cask install flux
