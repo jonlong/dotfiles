@@ -14,6 +14,7 @@ fi
 
 # Install homebrew packages
 brew install grc coreutils spark
+brew install ngrok
 brew bundle homebrew/Caskfile
 
 exit 0
