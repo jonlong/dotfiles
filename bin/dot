@@ -13,9 +13,3 @@ brew update
 
 # Install homebrew packages
 $DOT/homebrew/install.sh
-
-# Backup App Settings
-mackup backup
-
-# Commit App Settings
-cd $DOT/apps && git add . && git commit -m 'Backup update'; git push 'git@github.com:jonlong/app-settings.git' master:master --force
